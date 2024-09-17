@@ -8,4 +8,39 @@ html, body{
     height: 100%;
     width: 100%;
 }
+a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5rem;
+}
 
+i{
+    font-size: 1.3rem;
+}
+.first-nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: aqua;
+    padding: 1rem;
+}
+
+.main-nav{
+    display: flex;
+    padding: 1.2rem 0;
+    background-color: darkblue;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.main-nav img{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-size: cover;
+}
+
+.main-nav .links{
+    display: flex;
+    gap: 2rem;
+}
